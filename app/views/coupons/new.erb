@@ -1,0 +1,9 @@
+Coupon Form
+<%= form_for @coupon do |f| %>
+  <%= label_tag :coupon_code %>
+  <%= text_field_tag :coupon_code %>
+  <%= label_tag :store %>
+  <%= text_field_tag :store %>
+  <%= submit_tag 'Submit Coupon' %>
+
+<% end %>
